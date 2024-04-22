@@ -1,0 +1,22 @@
+[
+  {
+    "maxRate": 100,
+    "minRate": 40,
+    "rarity": "Common"
+  },
+  {
+    "maxRate": 39.99,
+    "minRate": 15,
+    "rarity": "Rare"
+  },
+  {
+    "maxRate": 14.99,
+    "minRate": 5,
+    "rarity": "Epic"
+  },
+  {
+    "maxRate": 4.99,
+    "minRate": 0,
+    "rarity": "Legendary"
+  }
+]

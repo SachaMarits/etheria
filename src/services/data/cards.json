@@ -1,0 +1,142 @@
+[
+  {
+    "number": 1,
+    "img": "/fantastic-1/1.png",
+    "rarity": "Legendary"
+  },
+  {
+    "number": 2,
+    "img": "/fantastic-1/2.png",
+    "rarity": "Legendary"
+  },
+  {
+    "number": 3,
+    "img": "/fantastic-1/3.png",
+    "rarity": "Legendary"
+  },
+  {
+    "number": 4,
+    "img": "/fantastic-1/4.png",
+    "rarity": "Legendary"
+  },
+  {
+    "number": 5,
+    "img": "/fantastic-1/5.png",
+    "rarity": "Legendary"
+  },
+  {
+    "number": 6,
+    "img": "/fantastic-1/6.png",
+    "rarity": "Legendary"
+  },
+  {
+    "number": 7,
+    "img": "/fantastic-1/7.png",
+    "rarity": "Legendary"
+  },
+  {
+    "number": 8,
+    "img": "/fantastic-1/8.png",
+    "rarity": "Legendary"
+  },
+  {
+    "number": 10,
+    "img": "/fantastic-1/10.png",
+    "rarity": "Epic"
+  },
+  {
+    "number": 11,
+    "img": "/fantastic-1/11.png",
+    "rarity": "Epic"
+  },
+  {
+    "number": 12,
+    "img": "/fantastic-1/12.png",
+    "rarity": "Epic"
+  },
+  {
+    "number": 13,
+    "img": "/fantastic-1/13.png",
+    "rarity": "Epic"
+  },
+  {
+    "number": 14,
+    "img": "/fantastic-1/14.png",
+    "rarity": "Epic"
+  },
+  {
+    "number": 20,
+    "img": "/fantastic-1/20.png",
+    "rarity": "Rare"
+  },
+  {
+    "number": 21,
+    "img": "/fantastic-1/21.png",
+    "rarity": "Rare"
+  },
+  {
+    "number": 22,
+    "img": "/fantastic-1/22.png",
+    "rarity": "Rare"
+  },
+  {
+    "number": 23,
+    "img": "/fantastic-1/23.png",
+    "rarity": "Rare"
+  },
+  {
+    "number": 24,
+    "img": "/fantastic-1/24.png",
+    "rarity": "Rare"
+  },
+  {
+    "number": 25,
+    "img": "/fantastic-1/25.png",
+    "rarity": "Rare"
+  },
+  {
+    "number": 26,
+    "img": "/fantastic-1/26.png",
+    "rarity": "Rare"
+  },
+  {
+    "number": 27,
+    "img": "/fantastic-1/27.png",
+    "rarity": "Rare"
+  },
+  {
+    "number": 28,
+    "img": "/fantastic-1/28.png",
+    "rarity": "Rare"
+  },
+  {
+    "number": 30,
+    "img": "/fantastic-1/30.png",
+    "rarity": "Common"
+  },
+  {
+    "number": 31,
+    "img": "/fantastic-1/31.png",
+    "rarity": "Common"
+  },
+  {
+    "number": 32,
+    "img": "/fantastic-1/32.png",
+    "rarity": "Common"
+  },
+  {
+    "number": 33,
+    "img": "/fantastic-1/33.png",
+    "rarity": "Common"
+  },
+  {
+    "number": 34,
+    "img": "/fantastic-1/34.png",
+    "rarity": "Common"
+  },
+  {
+    "number": 35,
+    "img": "/fantastic-1/35.png",
+    "rarity": "Common"
+  }
+]
