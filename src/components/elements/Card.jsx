@@ -5,22 +5,31 @@ import { useOpening } from "../../contexts/useOpening";
 
 export default function Card({ className, img, style, rarity, flipped }) {
   const ref = useRef(null);
-  const { deck, setDeck, booster, setBooster, setFlipped, setIsOpening } =
-    useOpening();
+  const {
+    deck,
+    setDeck,
+    booster,
+    setBooster,
+    setFlipped,
+    setIsOpening,
+    activeSet,
+  } = useOpening();
 
   const handleLocaleStorage = (card) => {
     if (deck) {
-      const deckIndex = deck.findIndex(({ number }) => number === card.number);
+      const deckIndex = deck.findIndex(
+        ({ number, set }) => number === card.number && set === activeSet.folder
+      );
       const modifiedDeck =
         deckIndex > -1
           ? deck.map((d, i) =>
               i === deckIndex ? { ...d, count: d.count + 1 } : d
             )
-          : [...deck, { ...card, set: "fantastic-1", count: 1 }];
+          : [...deck, { ...card, set: activeSet.folder, count: 1 }];
 
       setDeck(modifiedDeck);
     } else {
-      setDeck([{ ...card, set: "fantastic-1", count: 1 }]);
+      setDeck([{ ...card, set: activeSet.folder, count: 1 }]);
     }
   };
 
@@ -54,7 +63,7 @@ export default function Card({ className, img, style, rarity, flipped }) {
           "card-side front h-[50vh] rounded-2xl hover:brightness-120 transition !cursor-pointer select-none",
           { flipped: flipped }
         )}
-        src="card-back2.png"
+        src={`${activeSet.folder}/card-back.png`}
         onClick={() => setFlipped(true)}
       />
       <LootCard

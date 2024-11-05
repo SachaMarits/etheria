@@ -1,0 +1,28 @@
+.f1 #wave-g-1 {
+  stop-color: #12c2e9 !important;
+}
+.f1 #wave-g-2 {
+  stop-color: #c471ed !important;
+}
+.f1 #wave-g-3 {
+  stop-color: #f64f59 !important;
+}
+
+.f2 #wave-g-1 {
+  stop-color: #F2A25C !important;
+}
+.f2 #wave-g-2 {
+  stop-color: #D9145C !important;
+}
+.f2 #wave-g-3 {
+  stop-color: #8C0F4A !important;
+}
+
+.f2 .card-side.front {
+  scale: 1.2;
+}
+
+.f2 .card-side.front {
+  top: calc(47.5%*1.1);
+}
+

@@ -1,5 +1,6 @@
-import React, { createContext, useState, useContext } from "react";
+import React, { createContext, useState, useContext, useMemo } from "react";
 import { useLocalStorage } from "../hooks/localStorage";
+import { getSets } from "../services/cards.service";
 
 const OpeningContext = createContext(null);
 
@@ -19,6 +20,11 @@ export function OpeningContextProvider({ children }) {
   const [booster, setBooster] = useState(null);
   const [flipped, setFlipped] = useState(false);
   const [deck, setDeck] = useLocalStorage("deck", []);
+  const [set, setSet] = useLocalStorage("set", 1);
+
+  const sets = useMemo(() => getSets(), []);
+
+  const activeSet = sets[set - 1];
 
   return (
     <OpeningContext.Provider
@@ -31,6 +37,10 @@ export function OpeningContextProvider({ children }) {
         setFlipped,
         deck,
         setDeck,
+        set,
+        setSet,
+        sets,
+        activeSet,
       }}
     >
       {children}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Epic Wings",
+    "className": "f1",
+    "folder": "fantastic-1"
+  },
+  {
+    "id": 2,
+    "name": "Shadow Warriors",
+    "className": "f2",
+    "folder": "fantastic-2"
+  }
+]

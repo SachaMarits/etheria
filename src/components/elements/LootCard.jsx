@@ -25,7 +25,7 @@ export default function LootCard({
     let x, y, z;
     const $cards = $(`.card-holo-${id}`);
     const $style = $(".hover");
-    let customStyles = `background-image: url(${img});`;
+    let customStyles = `background-image: url(${img}); background-size: 100% 100%;`;
 
     if (size)
       customStyles += `height: ${size.height}px; width: ${size.width}px;`;

@@ -6,7 +6,8 @@ import { useOpening } from "../../contexts/useOpening";
 export default function Main() {
   const cards = useMemo(() => getCards(), []);
   const dropRates = useMemo(() => getDropRates(), []);
-  const { isOpening, setIsOpening, setBooster, deck, setDeck } = useOpening();
+  const { isOpening, setIsOpening, setBooster, deck, setDeck, activeSet } =
+    useOpening();
 
   const generateBooster = () => {
     setIsOpening(true);
@@ -18,7 +19,9 @@ export default function Main() {
       );
       if (category) {
         const cardInsideCategory = cards.filter(
-          ({ rarity }) => rarity === category.rarity
+          ({ rarity, img }) =>
+            rarity === category.rarity &&
+            img.startsWith(`/${activeSet.folder}/`)
         );
         const card =
           cardInsideCategory[
@@ -40,7 +43,7 @@ export default function Main() {
             className={
               "pack absolute top-[50%] left-[50%] h-[55vh] select-none cursor-pointer"
             }
-            src="pack.png"
+            src={`${activeSet.folder}/pack.png`}
             onClick={generateBooster}
           />
         </>

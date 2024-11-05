@@ -1,13 +1,16 @@
-import { OpeningContextProvider } from "./contexts/useOpening";
 import { Header, Main, Footer } from "./components/sections";
+import { useOpening } from "./contexts/useOpening";
+import "./assets/css/theme.css";
 
 function App() {
+  const { activeSet } = useOpening();
+
   return (
-    <OpeningContextProvider>
+    <div id="wrapper" className={activeSet?.className}>
       <Header />
       <Main />
       <Footer />
-    </OpeningContextProvider>
+    </div>
   );
 }
 
