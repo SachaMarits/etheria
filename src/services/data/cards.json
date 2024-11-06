@@ -208,5 +208,35 @@
     "number": 14,
     "img": "/fantastic-2/14.png",
     "rarity": "Common"
+  },
+  {
+    "number": 15,
+    "img": "/fantastic-2/15.png",
+    "rarity": "Common"
+  },
+  {
+    "number": 16,
+    "img": "/fantastic-2/16.png",
+    "rarity": "Common"
+  },
+  {
+    "number": 17,
+    "img": "/fantastic-2/17.png",
+    "rarity": "Common"
+  },
+  {
+    "number": 18,
+    "img": "/fantastic-2/18.png",
+    "rarity": "Common"
+  },
+  {
+    "number": 19,
+    "img": "/fantastic-2/19.png",
+    "rarity": "Common"
+  },
+  {
+    "number": 20,
+    "img": "/fantastic-2/20.png",
+    "rarity": "Common"
   }
 ]
